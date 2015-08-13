@@ -1,0 +1,99 @@
+{
+    "name": "hiqdev/hipanel-template",
+    "type": "project",
+    "description": "HiPanel Template",
+    "keywords": [
+        "hipanel",
+        "control panel",
+        "hosting",
+        "domains"
+    ],
+    "homepage": "https://hipanel.com/",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hipanel",
+        "issues": "https://github.com/hiqdev/hipanel/issues",
+        "wiki": "https://github.com/hiqdev/hipanel/wiki",
+        "forum": "https://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "silverfire@hiqdev.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "tafid@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@hiqdev.com",
+            "homepage": "https://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "php": "~5.4",
+        "hiqdev/hipanel": "*@dev",
+        "hiqdev/hipanel-module-client": "*@dev",
+        "hiqdev/hipanel-module-domain": "*@dev",
+        "hiqdev/hipanel-module-ticket": "*@dev",
+        "hiqdev/hipanel-module-server": "*@dev",
+        "hiqdev/hipanel-module-finance": "*@dev",
+        "hiqdev/hipanel-module-hosting": "*@dev",
+        "hiqdev/hipanel-module-dashboard": "*@dev",
+        "hiqdev/hipanel-module-request": "*@dev",
+        "hiqdev/hipanel-theme-adminlte": "*@dev",
+        "hiqdev/hipanel-theme-adminlte1": "*@dev",
+        "ahnames/hipanel-theme-adminlte": "*@dev",
+        "ahnames/yii2-asset-ahnames": "*@dev",
+        "hiqdev/yii2-x-editable": "*@dev",
+        "hiqdev/yii2-bootstrap-switch": "*@dev",
+        "hiqdev/yii2-asset-hipanel": "*@dev",
+        "hiqdev/yii2-asset-lightbox2": "~2.7",
+        "hiqdev/yii2-asset-select2-bootstrap3-css": "~1.5",
+        "hiqdev/yii2-asset-paulzi-form": "*@dev",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-builder": "dev-master",
+        "kartik-v/yii2-field-range": "*",
+        "kartik-v/yii2-markdown": "1.3.0",
+        "kartik-v/yii2-editable": "*@dev",
+        "kartik-v/yii2-mpdf": "*@dev",
+        "vova07/yii2-imperavi-widget": "*",
+        "vova07/yii2-select2-widget": "*",
+        "cebe/yii2-gravatar": "*",
+        "michelf/php-smartypants": "1.6.*@dev",
+        "raoul2000/yii2-pnotify-widget": "*",
+        "stichoza/google-translate-php": "~3.0",
+        "2amigos/yii2-editable-widget": "dev-master",
+        "wbraganca/yii2-dynamicform": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hipanel\\template\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

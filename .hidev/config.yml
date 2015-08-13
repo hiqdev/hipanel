@@ -1,0 +1,12 @@
+package:
+    name:           hipanel-template
+    namespace:      hipanel-template
+    label:          HiPanelTemplate
+    title:          HiPanel Template
+    type:           project
+    homepage:       https://hipanel.com/
+    keywords:       hipanel, control panel, hosting, domains
+    year:           2014
+
+require:
+    hiqdev/hidev-config-php:    "*@dev"

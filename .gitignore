@@ -1,0 +1,21 @@
+# vendor dirs
+vendor
+
+# composer lock files
+composer.lock
+
+# runtime dir
+runtime
+
+# hidev composer.json
+.hidev/composer.json
+
+# IDE & OS files
+.*.swp
+.idea
+nbproject
+.buildpath
+.project
+.settings
+Thumbs.db
+.DS_Store
