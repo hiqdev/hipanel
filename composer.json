@@ -71,7 +71,6 @@
         "hiqdev/yii2-menumanager": "*@dev",
         "hiqdev/yii2-thememanager": "*@dev",
         "hiqdev/yii2-pluginmanager": "*@dev",
-        "hiqdev/yii2-theme-adminlte": "*@dev",
         "ahnames/hipanel-theme-adminlte": "*@dev",
         "ahnames/yii2-asset-ahnames": "*@dev",
         "kartik-v/yii2-widgets": "*",
