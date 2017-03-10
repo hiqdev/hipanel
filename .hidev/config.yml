@@ -1,12 +1,33 @@
 package:
-    name:           hipanel-template
-    namespace:      hipanel-template
-    label:          HiPanelTemplate
-    title:          HiPanel Template
     type:           project
+    name:           hipanel
+    title:          HiPanel
+    headline:       HiPanel
     homepage:       https://hipanel.com/
     keywords:       hipanel, control panel, hosting, domains
-    year:           2014
+    namespace:      hipanel-template
+    description:    |
+        [![Logo](https://raw.githubusercontent.com/hiqdev/hipanel-core/master/docs/logo.png)](https://hipanel.com/)
 
-require:
-    hiqdev/hidev-config-php:    "*@dev"
+        [HiPanel](http://hipanel.com) is next generation control panel for hosting, domains and more.
+
+        This package is the template for building HiPanel project.
+
+        HiPanel is splitted into many packages.
+
+        - [hipanel-core](https://github.com/hiqdev/hipanel-core) - core package
+        - [hipanel-rbac](https://github.com/hiqdev/hipanel-rbac) - RBAC
+        - [hipanel-hiart](https://github.com/hiqdev/hipanel-hiart) - HiArt
+        - [hipanel-module-client](https://github.com/hiqdev/hipanel-module-client) - clients and contacts
+        - [hipanel-module-domain](https://github.com/hiqdev/hipanel-module-domain) - registered domains
+        - [hipanel-module-finance](https://github.com/hiqdev/hipanel-module-finance) - billing, invoices, tariffs, payment systems integration, shopping cart
+        - [hipanel-module-ticket](https://github.com/hiqdev/hipanel-module-ticket) - support ticket system
+        - [hipanel-module-hosting](https://github.com/hiqdev/hipanel-module-hosting) - accounts, virtual hosts, databases, backups, ips
+        - [hipanel-module-server](https://github.com/hiqdev/hipanel-module-server) - servers
+        - [hipanel-module-dashboard](https://github.com/hiqdev/hipanel-module-dashboard) - dashboard
+        - [hipanel-module-request](https://github.com/hiqdev/hipanel-module-request) - requests
+        - [hipanel-module-stock](https://github.com/hiqdev/hipanel-module-stock) - models and items in stock, history of orders and movements
+        - [hipanel-module-dns](https://github.com/hiqdev/hipanel-module-dns) - DNS records
+        - [hipanel-module-document](https://github.com/hiqdev/hipanel-module-document) - files and documents
+        - [hipanel-module-mailing](https://github.com/hiqdev/hipanel-module-mailing) - email marketing
+        - [hipanel-module-certificate](https://github.com/hiqdev/hipanel-module-certificate) - SSL certificates
