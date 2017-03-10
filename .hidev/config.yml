@@ -3,9 +3,10 @@ package:
     name:           hipanel
     title:          HiPanel
     headline:       HiPanel
+    license:        BSD-3-Clause
     homepage:       https://hipanel.com/
     keywords:       hipanel, control panel, hosting, domains
-    namespace:      hipanel-template
+    namespace:      hiqdev\hipanel
     description:    |
         [![Logo](https://raw.githubusercontent.com/hiqdev/hipanel-core/master/docs/logo.png)](https://hipanel.com/)
 
@@ -31,3 +32,33 @@ package:
         - [hipanel-module-document](https://github.com/hiqdev/hipanel-module-document) - files and documents
         - [hipanel-module-mailing](https://github.com/hiqdev/hipanel-module-mailing) - email marketing
         - [hipanel-module-certificate](https://github.com/hiqdev/hipanel-module-certificate) - SSL certificates
+
+vendor:
+    name:           hiqdev
+    title:          HiQDev
+    homepage:       http://hiqdev.com/
+    authors:
+        hiqsol:
+            name:       Andrii Vasyliev
+            role:       Project lead
+            email:      sol@hiqdev.com
+            github:     https://github.com/hiqsol
+            homepage:   http://hipanel.com/
+        SilverFire:
+            name:       Dmitry Naumenko
+            role:       Lead backend developer
+            email:      d.naumenko.a@gmail.com
+            github:     https://github.com/SilverFire
+            homepage:   http://silverfire.me/
+        tafid:
+            name:       Andrey Klochok
+            role:       Lead frontend developer
+            email:      andreyklochok@gmail.com
+            github:     https://github.com/tafid
+            homepage:   http://hiqdev.com/
+        BladeRoot:
+            name:       Yuriy Myronchuk
+            role:       QA Lead
+            email:      bladeroot@gmail.com
+            github:     https://github.com/BladeRoot
+            homepage:   http://hiqdev.com/

@@ -1,21 +1,44 @@
+# hidev composer.json
+.hidev/composer.json
+
+# hidev internals
+.hidev/composer.lock
+.hidev/config-local.yml
+.hidev/vendor
+
+# IDE & OS files
+.*.swp
+.DS_Store
+.buildpath
+.idea
+.project
+.settings
+Thumbs.db
+nbproject
+
+# HiSite directories
+/runtime/*
+/web/assets/*
+
 # vendor dirs
 vendor
 
 # composer lock files
 composer.lock
 
+# php-cs-fixer cache
+.php_cs.cache
+
+# phpunit generated files
+coverage.clover
+
+# Binaries
+chkipper.phar
+composer.phar
+ocular.phar
+php-cs-fixer.phar
+phpunit-skelgen.phar
+phpunit.phar
+
 # runtime dir
 runtime
-
-# hidev composer.json
-.hidev/composer.json
-
-# IDE & OS files
-.*.swp
-.idea
-nbproject
-.buildpath
-.project
-.settings
-Thumbs.db
-.DS_Store

@@ -11,10 +11,10 @@
     "homepage": "https://hipanel.com/",
     "license": "BSD-3-Clause",
     "support": {
-        "email": "support@hiqdev.com",
         "source": "https://github.com/hiqdev/hipanel",
         "issues": "https://github.com/hiqdev/hipanel/issues",
         "wiki": "https://github.com/hiqdev/hipanel/wiki",
+        "email": "support@hiqdev.com",
         "forum": "https://forum.hiqdev.com/"
     },
     "authors": [
@@ -22,25 +22,25 @@
             "name": "Andrii Vasyliev",
             "role": "Project lead",
             "email": "sol@hiqdev.com",
-            "homepage": "https://hipanel.com/"
+            "homepage": "http://hipanel.com/"
         },
         {
             "name": "Dmitry Naumenko",
             "role": "Lead backend developer",
-            "email": "silverfire@hiqdev.com",
+            "email": "d.naumenko.a@gmail.com",
             "homepage": "http://silverfire.me/"
         },
         {
             "name": "Andrey Klochok",
             "role": "Lead frontend developer",
-            "email": "tafid@hiqdev.com",
-            "homepage": "https://hiqdev.com/"
+            "email": "andreyklochok@gmail.com",
+            "homepage": "http://hiqdev.com/"
         },
         {
             "name": "Yuriy Myronchuk",
             "role": "QA Lead",
-            "email": "bladeroot@hiqdev.com",
-            "homepage": "https://hiqdev.com/"
+            "email": "bladeroot@gmail.com",
+            "homepage": "http://hiqdev.com/"
         }
     ],
     "require": {
@@ -54,7 +54,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\hipanel\\": ""
+            "hiqdev\\hipanel\\": "src"
         }
     },
     "extra": {
