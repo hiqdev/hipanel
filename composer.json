@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hipanel",
     "type": "project",
-    "description": "HiPanel",
+    "description": "Control panel for hosting, domains and more.",
     "keywords": [
         "hipanel",
         "control panel",

@@ -1,6 +1,6 @@
 # HiPanel
 
-**HiPanel**
+**Control panel for hosting, domains and more.**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hipanel/v/stable)](https://packagist.org/packages/hiqdev/hipanel)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hipanel/downloads)](https://packagist.org/packages/hiqdev/hipanel)
@@ -11,11 +11,9 @@
 
 [![Logo](https://raw.githubusercontent.com/hiqdev/hipanel-core/master/docs/logo.png)](https://hipanel.com/)
 
-[HiPanel](http://hipanel.com) is next generation control panel for hosting, domains and more.
+HiPanel is splitted into many pluggable packages you can choose from.
 
-This package is the template for building HiPanel project.
-
-HiPanel is splitted into many packages.
+This package is the template for assembling HiPanel project for your needs.
 
 - [hipanel-core](https://github.com/hiqdev/hipanel-core) - core package
 - [hipanel-rbac](https://github.com/hiqdev/hipanel-rbac) - RBAC
