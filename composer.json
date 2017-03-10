@@ -1,7 +1,7 @@
 {
-    "name": "hiqdev/hipanel-template",
+    "name": "hiqdev/hipanel",
     "type": "project",
-    "description": "HiPanel Template",
+    "description": "HiPanel",
     "keywords": [
         "hipanel",
         "control panel",
@@ -44,65 +44,30 @@
         }
     ],
     "require": {
-        "php": "~5.4",
-        "hiqdev/hipanel": "*@dev",
+        "hiqdev/hipanel-core": "*@dev",
         "hiqdev/hipanel-module-client": "*@dev",
-        "hiqdev/hipanel-module-domain": "*@dev",
-        "hiqdev/hipanel-module-ticket": "*@dev",
-        "hiqdev/hipanel-module-server": "*@dev",
-        "hiqdev/hipanel-module-finance": "*@dev",
-        "hiqdev/hipanel-module-hosting": "*@dev",
         "hiqdev/hipanel-module-dashboard": "*@dev",
-        "hiqdev/hipanel-module-request": "*@dev",
-        "hiqdev/hipanel-theme-adminlte": "*@dev",
-        "hiqdev/hipanel-theme-adminlte1": "*@dev",
-        "hiqdev/yii2-theme-adminlte": "*@dev",
-        "hiqdev/yii2-x-editable": "*@dev",
-        "hiqdev/yii2-bootstrap-switch": "*@dev",
-        "hiqdev/yii2-asset-hipanel": "*@dev",
-        "hiqdev/yii2-asset-lightbox2": "~2.7",
-        "hiqdev/yii2-asset-select2-bootstrap3-css": "~1.5",
-        "hiqdev/yii2-asset-paulzi-form": "*@dev",
-        "hiqdev/yii2-hiam-authclient": "*@dev",
-        "hiqdev/yii2-hiart": "*@dev",
-        "hiqdev/yii2-combo": "*@dev",
-        "hiqdev/yii2-higrid": "*@dev",
-        "hiqdev/yii2-collection": "*@dev",
-        "hiqdev/yii2-menumanager": "*@dev",
-        "hiqdev/yii2-thememanager": "*@dev",
-        "hiqdev/yii2-pluginmanager": "*@dev",
-        "ahnames/hipanel-theme-adminlte": "*@dev",
-        "ahnames/yii2-asset-ahnames": "*@dev",
-        "kartik-v/yii2-widgets": "*",
-        "kartik-v/yii2-builder": "dev-master",
-        "kartik-v/yii2-field-range": "*",
-        "kartik-v/yii2-markdown": "1.3.0",
-        "kartik-v/yii2-editable": "*@dev",
-        "kartik-v/yii2-mpdf": "*@dev",
-        "vova07/yii2-imperavi-widget": "*",
-        "vova07/yii2-select2-widget": "*",
-        "cebe/yii2-gravatar": "*",
-        "michelf/php-smartypants": "1.6.*@dev",
-        "raoul2000/yii2-pnotify-widget": "*",
-        "stichoza/google-translate-php": "~3.0",
-        "2amigos/yii2-editable-widget": "dev-master",
-        "wbraganca/yii2-dynamicform": "*"
+        "hiqdev/hipanel-theme-adminlte": "*@dev"
     },
     "require-dev": {
-        "yiisoft/yii2-codeception": "*",
-        "yiisoft/yii2-debug": "*",
-        "yiisoft/yii2-gii": "*",
-        "yiisoft/yii2-faker": "*"
+        "hiqdev/hidev-php": "<2.0"
     },
     "autoload": {
         "psr-4": {
-            "hipanel\\template\\": ""
+            "hiqdev\\hipanel\\": ""
         }
     },
     "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+        "config-plugin": {
+            "params": "src/config/params.php",
+            "hisite": "src/config/hisite.php"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }

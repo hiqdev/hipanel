@@ -1,9 +1,9 @@
-hiqdev/hipanel-template changelog
----------------------------------
+# hiqdev/hipanel-template commits history
 
-## Under development
+## [Under development]
 
-- Inited
+- Inited ([sol@hiqdev.com])
 
-## Development started 2015-08-13
+## [Development started] - 2015-08-13
 
+[Under development]: https://github.com/hiqdev/hipanel-template/releases
