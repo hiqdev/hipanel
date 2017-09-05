@@ -50,8 +50,7 @@
         "hiqdev/yii2-theme-adminlte": "*@dev"
     },
     "require-dev": {
-        "hiqdev/hidev-php": "<2.0",
-        "hiqdev/hidev-hiqdev": "<2.0"
+        "hiqdev/hidev-php": "<2.0"
     },
     "autoload": {
         "psr-4": {
