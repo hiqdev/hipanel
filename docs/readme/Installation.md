@@ -8,8 +8,6 @@ __3.__ __docker-compose__.
 
 __4.__ [HiDev](https://github.com/hiqdev/hidev).
 
----
-
 ## Installation
 
 __1.__ `git clone` [hipanel](https://git.hiqdev.com/advancedhosters/hipanel.advancedhosters.com)
@@ -47,8 +45,6 @@ For example:
 ```
 
 where `127.0.0.1:1080` would be your entry point.
-
-----
 
 ## Error
 
