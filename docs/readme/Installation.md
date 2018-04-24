@@ -31,7 +31,9 @@ __4.__ Next, `hidev deploy` in repository root.
 
 __5.__ Then `docker-compose up`.
 
-__6.__ Using `docker ps` you could find out port number. For example, in _0.0.0.0:32785_ use __32785__ number with your __REAL_IP__, it should look like `127.0.0.1:32785` in browser address bar.
+__6.__ Using `docker ps` you could find out port number.
+
+For example, in _0.0.0.0:32785_ use __32785__ number with your __REAL_IP__, it should look like `127.0.0.1:32785` in browser address bar.
 
 You could make your port number permanent by editing `docker-compose.yml` file in __ports:__ field.
 
@@ -42,7 +44,6 @@ For example:
     ports:
       - "0.0.0.0:1080:80"
 ...
-
 ```
 
 where `127.0.0.1:1080` in browser would be your entry point.
