@@ -25,7 +25,7 @@ HOSTS=local.hipanel.advancedhosters.com
 API_HOSTS_LINE=hiapi.advancedhosters.com:88.208.34.69
 
 ```
-> where __88.208.34.69__ is ip you get from `ping hiapi.advancedhosters.com`
+where __88.208.34.69__ is ip you get from `ping hiapi.advancedhosters.com`
 
 __4.__ Next, `hidev deploy` in repository root.
 
