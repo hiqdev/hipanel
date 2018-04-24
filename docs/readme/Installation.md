@@ -46,7 +46,7 @@ For example:
 ...
 ```
 
-where `127.0.0.1:1080` in browser would be your entry point.
+where `127.0.0.1:1080` would be your entry point.
 
 ----
 
