@@ -31,6 +31,13 @@ package:
         - [hipanel-module-mailing](https://hiqdev.com/packages/hipanel-module-mailing) - email marketing
         - [hipanel-module-certificate](https://hiqdev.com/packages/hipanel-module-certificate) - SSL certificates
 
+
+readme:
+    sections:
+        - Installation
+        - Development
+
+
 vendor:
     name:           hiqdev
     title:          HiQDev
