@@ -106,6 +106,31 @@ If you couldn't access page by `127.0.0.1:32785` url, the problem might be with 
 
 // How to?
 
+In `.env` file witch placed in root directory of the project, bring the items to this form
+```
+ENV=dev
+TEST=1
+
+SSL=false
+#HOSTS=hiam
+IPS=127.0.0.1
+LOCAL_IPS=127.0.0.1
+DB_HOST=rcp
+DB_PORT=5432
+URL=http://hiam
+TESTS_ACCEPTANCE_SELENIUM_HOST=selenium
+```
+
+Then
+
+1. `cd tests`
+2. `docker-compose docker-compose -f docker-compose.yml -f docker-compose.yml.dev up -d`
+3. `docker-compose exec hiam ./vendor/bin/codecept run -f -vvv`
+
+In order to stop the container type `docker-compose down` in the `tests` directory.
+
+You can edit config of running test application, changing the parameters in the files `config/test.php`,
+`config/codeception.php`, `config/acceptence.php`.
 
 ## Contributing
 
@@ -118,13 +143,41 @@ If you couldn't access page by `127.0.0.1:32785` url, the problem might be with 
 
 // What to read about?
 
+- [PHP dotenv](https://github.com/vlucas/phpdotenv)
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
 #### xDebug in Docker
 
 // What to do in PHPStorm, browser, etc?
+
+If you enable xdebug in your server every time we run a script in PHP is going to send the information to the listener, 
+the Listener in our case is PHPStorm.
+
+In order to allow connection we need to configure the server where our code is. 
+Add new server to debug config. set the name we prefer, configure the domain, 
+and the port where our docker container is listen (by default 80).
+Then we need to click in the option `Use path mapping …`, automatically PHPStorm is going to show the tree directory of 
+our project, in the column `Absolute path on the server` we need to add the path of our project in the container, 
+in my case is `/app`.
+
+In the browser you need to go to the IP address specified in the configuration file xDebug running container 
+and specify the port that you can find by entering the command `docker-compose ps`. In column `Ports` you will see 
+that for example `0.0.0.0:32768->80/tcp, 9000/tcp` where `32768` is the port we must enter.
+
 // How to check that xDebug is enabled on PHP side?
+
+Go to running container `docker-compose exec hiam bash`, in container type `php -i | grep xdebug`, 
+find out path to xdebug ini file, `cat /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini` and check 
+`remote_enabled`, `remote_port`, `remote_host`.
+
 // Troubleshooting:
 // - debug session does not get started;
+- check ''
+- check `Use path mappings...`
+
 // - debug can not locate files;
+- check `Use path mappings...` 
 
 #### Contributing to Codeception tests
 
