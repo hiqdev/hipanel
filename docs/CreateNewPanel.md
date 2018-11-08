@@ -11,9 +11,11 @@ Fix `.env.example`, pay attention:
     HIPANEL_URL=https://panel.0domain.name
     REAL_IP=88.208.3.112
 
-Fix `hidev.yml`, pay attention package name - 0domain.name
+Fix `hidev.yml`, pay attention:
 
-Fix `composer.json`, pay attention:
+    package name - 0domain.name
+
+Fix ` composer.json`, pay attention:
 
     package name - 0domain.name
     namespace in autoload - ahnames\sites\site\odomainname
