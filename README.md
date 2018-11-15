@@ -112,12 +112,16 @@ cd tests/software
 
 For other OS'es – find and download appropriate executables.
 
-__3.__ Run `Selenium` with `ChromeDriver`
-```
+__3.__ Run `Selenium` with `ChromeDriver`.
+
+```bash
 ./run.sh
 ```
+
+If you develop multiple projects, you can safely use single running instance of Selenium for all projects: recources will be shared gracefully.
+
 __4.__ Build tests to compile actors classes with appropriate modules. Read Codeception docs to understand how it works.
-```
+```bash
 ./vendor/bin/codecept build    
 ```
 __5.__ Run tests
