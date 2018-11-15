@@ -102,27 +102,43 @@ If you couldn't access page by `127.0.0.1:32785` url, the problem might be with 
 
 // Without Docker. What should be installed to run tests? Why do we need to run tests locally without Docker?
 
-__1.__ In order to run tests, you must be installed `Java`, `Codeception`, `Selenium`, `ChromeDriver`
+In order to run tests, you need to have installed `JDK 11+` to run `Selenium`, `Selenium` itself and `ChromeDriver`. Selenium is a Java software that provides an API for automated web pages testing by serfing real web pages with a real browser.
 
-__2.__ After you install `Java` and `Codeception` run our script which download `Selenium` and `ChromeDriver`
+__1.__ [Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) and install JDK for your platform.
+
+__2.__ For Debian-based OS (e.g. Ubuntu) run our script which downloads `Selenium` and `ChromeDriver`
 ```
 cd tests/software
 ./download.sh
 ```
-__3.__ Run Selenium with ChromeDriver
+
+For other OS'es – find and download appropriate executables.
+
+__3.__ Run `Selenium` with `ChromeDriver`
 ```
 ./run.sh
 ```
-__4.__ Build tests
+__4.__ Build tests to compile actors classes with appropriate modules. Read Codeception docs to understand how it works.
 ```
 ./vendor/bin/codecept build    
 ```
-__5.__ Run tests in the selected module
+__5.__ Run tests
 
-For example:
+- All tests:
+```bash
+./vendor/bin/codecept run
 ```
+
+- Module-specific:
+```bash
 ./vendor/bin/codecept run vendor/hiqdev/hipanel-module-finance/tests/acceptance
 ```
+
+You can also add flags `-v`, `-vv` or `-vvv` for different levels of verbosity, or add debug flag `-d` to have even more detailed output. For example:
+```bash
+./vendor/bin/codecept run -d -vvv vendor/hiqdev/hipanel-module-finance/tests/acceptance
+```
+
 
 ### Running tests inside Docker
 
