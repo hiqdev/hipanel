@@ -100,8 +100,6 @@ If you couldn't access page by `127.0.0.1:32785` url, the problem might be with 
 
 ## Running tests locally
 
-// Without Docker. What should be installed to run tests? Why do we need to run tests locally without Docker?
-
 In order to run tests, you need to have installed `JDK 11+` to run `Selenium`, `Selenium` itself and `ChromeDriver`. Selenium is a Java software that provides an API for automated web pages testing by serfing real web pages with a real browser.
 
 __1.__ [Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html) and install JDK for your platform.
