@@ -102,6 +102,28 @@ If you couldn't access page by `127.0.0.1:32785` url, the problem might be with 
 
 // Without Docker. What should be installed to run tests? Why do we need to run tests locally without Docker?
 
+__1.__ In order to run tests, you must be installed `Java`, `Codeception`, `Selenium`, `ChromeDriver`
+
+__2.__ After you install `Java` and `Codeception` run our script which download `Selenium` and `ChromeDriver`
+```
+cd tests/software
+./download.sh
+```
+__3.__ Run Selenium with ChromeDriver
+```
+./run.sh
+```
+__4.__ Build tests
+```
+./vendor/bin/codecept build    
+```
+__5.__ Run tests in the selected module
+
+For example:
+```
+./vendor/bin/codecept run vendor/hiqdev/hipanel-module-finance/tests/acceptance
+```
+
 ### Running tests inside Docker
 
 // How to?
