@@ -44,14 +44,26 @@
         }
     ],
     "require": {
-        "hiqdev/hipanel-core": "*@dev",
-        "hiqdev/hipanel-module-client": "*@dev",
-        "hiqdev/hipanel-module-dashboard": "*@dev",
-        "hiqdev/yii2-theme-adminlte": "*@dev"
+        "hiqdev/hipanel-core": "dev-master",
+        "hiqdev/hipanel-module-client": "dev-master",
+        "hiqdev/hipanel-module-finance": "dev-master",
+        "hiqdev/hipanel-module-integrations": "dev-master",
+        "hiqdev/hipanel-module-domain": "dev-master",
+        "hiqdev/hipanel-module-dns": "dev-master",
+        "hiqdev/hipanel-module-certificate": "dev-master",
+        "hiqdev/hipanel-module-server": "dev-master",
+        "hiqdev/hipanel-module-hosting": "dev-master",
+        "hiqdev/hipanel-module-stock": "dev-master",
+        "hiqdev/hipanel-module-document": "dev-master",
+        "hiqdev/hipanel-module-mailing": "dev-master",
+        "hiqdev/hipanel-module-ticket": "dev-master",
+        "hiqdev/hisite-module-news": "dev-master",
+        "hiqdev/hipanel-module-dashboard": "dev-master",
+        "hiqdev/yii2-theme-adminlte": "dev-master"
     },
     "require-dev": {
-        "hiqdev/hidev-php": "<2.0",
-        "hiqdev/hidev-hiqdev": "<2.0"
+        "hiqdev/hidev-php": "dev-master",
+        "hiqdev/hidev-hiqdev": "dev-master"
     },
     "autoload": {
         "psr-4": {
