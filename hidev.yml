@@ -14,22 +14,22 @@ package:
 
         HiPanel is splitted into many pluggable packages you can choose from:
 
-        - [hipanel-core](https://hiqdev.com/packages/hipanel-core) - core package
-        - [hipanel-rbac](https://hiqdev.com/packages/hipanel-rbac) - RBAC
-        - [hipanel-hiart](https://hiqdev.com/packages/hipanel-hiart) - HiArt
-        - [hipanel-module-client](https://hiqdev.com/packages/hipanel-module-client) - clients and contacts
-        - [hipanel-module-domain](https://hiqdev.com/packages/hipanel-module-domain) - registered domains
-        - [hipanel-module-finance](https://hiqdev.com/packages/hipanel-module-finance) - billing, invoices, tariffs, payment systems integration, shopping cart
-        - [hipanel-module-ticket](https://hiqdev.com/packages/hipanel-module-ticket) - support ticket system
-        - [hipanel-module-hosting](https://hiqdev.com/packages/hipanel-module-hosting) - accounts, virtual hosts, databases, backups, ips
-        - [hipanel-module-server](https://hiqdev.com/packages/hipanel-module-server) - servers
-        - [hipanel-module-dashboard](https://hiqdev.com/packages/hipanel-module-dashboard) - dashboard
-        - [hipanel-module-request](https://hiqdev.com/packages/hipanel-module-request) - requests
-        - [hipanel-module-stock](https://hiqdev.com/packages/hipanel-module-stock) - models and items in stock, history of orders and movements
-        - [hipanel-module-dns](https://hiqdev.com/packages/hipanel-module-dns) - DNS records
-        - [hipanel-module-document](https://hiqdev.com/packages/hipanel-module-document) - files and documents
-        - [hipanel-module-mailing](https://hiqdev.com/packages/hipanel-module-mailing) - email marketing
-        - [hipanel-module-certificate](https://hiqdev.com/packages/hipanel-module-certificate) - SSL certificates
+        - [hipanel-core](https://github.com/hiqdev/hipanel-core) - core package
+        - [hipanel-rbac](https://github.com/hiqdev/hipanel-rbac) - RBAC
+        - [hipanel-hiart](https://github.com/hiqdev/hipanel-hiart) - HiArt
+        - [hipanel-module-client](https://github.com/hiqdev/hipanel-module-client) - clients and contacts
+        - [hipanel-module-domain](https://github.com/hiqdev/hipanel-module-domain) - registered domains
+        - [hipanel-module-finance](https://github.com/hiqdev/hipanel-module-finance) - billing, invoices, tariffs, payment systems integration, shopping cart
+        - [hipanel-module-ticket](https://github.com/hiqdev/hipanel-module-ticket) - support ticket system
+        - [hipanel-module-hosting](https://github.com/hiqdev/hipanel-module-hosting) - accounts, virtual hosts, databases, backups, ips
+        - [hipanel-module-server](https://github.com/hiqdev/hipanel-module-server) - servers
+        - [hipanel-module-dashboard](https://github.com/hiqdev/hipanel-module-dashboard) - dashboard
+        - [hipanel-module-request](https://github.com/hiqdev/hipanel-module-request) - requests
+        - [hipanel-module-stock](https://github.com/hiqdev/hipanel-module-stock) - models and items in stock, history of orders and movements
+        - [hipanel-module-dns](https://github.com/hiqdev/hipanel-module-dns) - DNS records
+        - [hipanel-module-document](https://github.com/hiqdev/hipanel-module-document) - files and documents
+        - [hipanel-module-mailing](https://github.com/hiqdev/hipanel-module-mailing) - email marketing
+        - [hipanel-module-certificate](https://github.com/hiqdev/hipanel-module-certificate) - SSL certificates
 
 
 readme:
