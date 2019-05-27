@@ -1,12 +1,6 @@
 # HiPanel
 
-**Control panel for hosting, domains and more.**
-
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/hipanel/v/stable)](https://packagist.org/packages/hiqdev/hipanel)
-[![Total Downloads](https://poser.pugx.org/hiqdev/hipanel/downloads)](https://packagist.org/packages/hiqdev/hipanel)
-[![Build Status](https://img.shields.io/travis/hiqdev/hipanel.svg)](https://travis-ci.org/hiqdev/hipanel)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hipanel.svg)](https://scrutinizer-ci.com/g/hiqdev/hipanel/)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hipanel.svg)](https://scrutinizer-ci.com/g/hiqdev/hipanel/)
+**Next generation billing and control panel for hosting, domains and more.**
 
 [![Logo](https://raw.githubusercontent.com/hiqdev/hipanel-core/master/docs/logo.png)](https://hipanel.com/)
 
