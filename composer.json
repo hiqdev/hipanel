@@ -51,7 +51,6 @@
         "hiqdev/hipanel-module-domain": "dev-master",
         "hiqdev/hipanel-module-dns": "dev-master",
         "hiqdev/hipanel-module-certificate": "dev-master",
-        "hiqdev/hipanel-module-server": "dev-master",
         "hiqdev/hipanel-module-hosting": "dev-master",
         "hiqdev/hipanel-module-stock": "dev-master",
         "hiqdev/hipanel-module-document": "dev-master",
