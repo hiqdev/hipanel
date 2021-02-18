@@ -52,8 +52,7 @@
         "hiqdev/hipanel-module-mailing": "dev-master",
         "hiqdev/hipanel-module-ticket": "dev-master",
         "hiqdev/hisite-module-news": "dev-master",
-        "hiqdev/hipanel-module-dashboard": "dev-master",
-        "hiqdev/yii2-theme-adminlte": "dev-master"
+        "hiqdev/hipanel-module-dashboard": "dev-master"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
